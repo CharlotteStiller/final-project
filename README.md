@@ -1,6 +1,6 @@
 # final-bootcamp
 
-The objective of this project was to is to build a model that will provide insight into product clustering and rating of beauty product in e-commerce,  as well as answer additional questions by top management related to the matter.
+The objective of this project is to build a model that will provide insight into product clustering and rating of beauty product in e-commerce,  as well as answer additional questions by top management related to the matter.
 
 In ordert o to this, I used web scraping, agile project planning in Github and made use of SQL, Redshift, Python and Tableau.
 
