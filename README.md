@@ -4,7 +4,7 @@ The objective of this project was to is to build a model that will provide insig
 
 In ordert o to this, I used web scraping, agile project planning in Github and made use of SQL, Redshift, Python and Tableau.
 
-![alt text](https://cdn.iconscout.com/icon/premium/png-256-thumb/reviews-3-683548.png)
+![alt text](https://img.freepik.com/vecteurs-libre/gens-tiennent-etoiles-illustration-concept-illustration-concept-client-commentaires-illustration-style-cartoon-plat_313437-1.jpg?size=626&ext=jpg)
 
 ## About the project
 
