@@ -4,6 +4,8 @@ The objective of this project was to is to build a model that will provide insig
 
 In ordert o to this, I used web scraping, agile project planning in Github and made use of SQL, Redshift, Python and Tableau.
 
+![alt text](https://cdn.iconscout.com/icon/premium/png-256-thumb/reviews-3-683548.png)
+
 ## About the project
 
 I worked with two datasets. The first data I've got from scraping the web of one of the
