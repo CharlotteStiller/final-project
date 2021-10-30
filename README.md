@@ -17,7 +17,7 @@ The goal of the classification project is to analyse the characteristics of the 
 
 
 ## Dataset Web Scraping 
-For the project I scraped details from 18.000??? products with the following columns:  
+For the project I scraped details from 52.000 products with the following columns:  
 
 
 | Column           | Description                        | Example                   |
