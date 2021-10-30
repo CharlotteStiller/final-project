@@ -33,7 +33,6 @@ For the project I scraped details from 18.000??? products with the following col
 | charesteristics  | Find trending charesteristics      | highly pigmented, shaping |
 | effect           | Desired effect of the product      | refining                  |
 | product_award    | Find trending awards               | perfume free              |
-| ingredients      | Find trending topics               | Jojoba, Aqua              |
 | age              | For which product is recommended   | 20+                       |
 | number_rating    | How many people rate the product   | 55                        |
 | rating           | Star rating 1-5                    | 4,5                       |
