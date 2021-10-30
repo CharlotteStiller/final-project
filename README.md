@@ -2,7 +2,7 @@
 
 The objective of this project is to build a model that will provide insight into product clustering and rating of beauty product in e-commerce,  as well as answer additional questions by top management related to the matter.
 
-In ordert to do this, I used web scraping, agile project planning in Github and made use of SQL, Redshift, Python and Tableau.
+In ordert to do this, I used web scraping, agile project planning in Github and made use of Redshift, Python and Tableau.
 
 ![alt text](https://img.freepik.com/vecteurs-libre/gens-tiennent-etoiles-illustration-concept-illustration-concept-client-commentaires-illustration-style-cartoon-plat_313437-1.jpg?size=626&ext=jpg)
 
