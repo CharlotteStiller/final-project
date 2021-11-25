@@ -1,23 +1,22 @@
 # final-bootcamp
 
-The objective of this project is to build a model that will provide insight into product clustering and rating of beauty product in e-commerce,  as well as answer additional questions by top management related to the matter.
+The objective of this project is to build a model that is able to predict the rating of products in e-commerce and to find out what its need to put together the ideal product for a e-commerce shop. 
 
-In ordert to do this, I used web scraping, agile project planning in Github and made use of Redshift, Python and Tableau.
+In ordert to do this, I used web scraping and made use of Python and Tableau.
 
 ![alt text](https://img.freepik.com/vecteurs-libre/gens-tiennent-etoiles-illustration-concept-illustration-concept-client-commentaires-illustration-style-cartoon-plat_313437-1.jpg?size=626&ext=jpg)
 
 ## About the project
 
-I worked with two datasets. The first data I've got from scraping the web of one of the
-leading beauty e-commerce company in europe. The second I've got through redshift from a abo-commerce company.   
+I worked with a dataset that I've got from scraping the web of one of the leading beauty e-commerce company in europe. 
 
-We want to understand the demographics and other characteristics of beauty products that are well rated by the customers. Both datasets have ratings from 1-5 stars for the worst and the best products. 
+We want to understand the demographics and other characteristics of beauty products that are well rated by the customers. The products have ratings from 1-5 stars. 1 for the most unpopular and 5 for the most popular product. 
 
-The goal of the classification project is to analyse the characteristics of the beauty products and to train a model to predict if a product get rated with 5 stars or not. 
+The goal of the classification project is to train a model to predict if a product get rated with 5 stars or less and to analyse the characteristics of the products. The analysis is the base to create the next product for the e-commerce shop that is most popular and has the biggest potential. 
 
 
-## Dataset Web Scraping 
-For the project I scraped details from 52.000 products with the following columns:  
+## Dataset 
+For the project I scraped details from 50.000 products with the following columns:  
 
 
 | Column           | Description                        | Example                   |
@@ -39,26 +38,17 @@ For the project I scraped details from 52.000 products with the following column
 | url              | URL ID                             | 50000050                  |
 
 
-## Dataset Redshift 
-
-| Column           | Description                        | Example                   |
-|------------------|------------------------------------|---------------------------|
-| item_nb          | Item number                        | 037414                    |
-| size             | ml of the product                  | 6ml                       |
-| price            | Price in €                         | 18,39                     |
-| category         | Hair, Face, Make-up, Body, Perfume | Make-up                   |
-| number_rating    | How many people rate the product   | 55                        |
-| rating           | Star rating 1-5                    | 4,5                       |
-
-
 
 ## Workflow
 
 
 1. **Scraping the data with Beautiful Soup**
-    - Files: web_scraping.ipynb / helper.py / df.csv
-    - Scrape five categories of beauty products to get all characteristics that could give us insights 
+    - Files: Scraping_data.ipynb / helper_scraping.py
+    - Scrape 15 diffrent attributes that could give us insights
 
+1. **Cleaning the dataset**
+    - Files: Cleaning_data_first_insights.ipynb / helper: cleaning.py
+    - Scrape 15 diffrent attributes that could give us insights
   
 2.  **Logistic regression / Classification in Python** 
     - Files: Solutions_Python - Classification.ipynb / helper.py
@@ -71,7 +61,7 @@ For the project I scraped details from 52.000 products with the following column
 3. **Visualize the data and storytelling in Tableau** 
     - Files: Conclusions.ipynb / Conclusions.twb 
     - Extract demographics and other characteristics of the rated products and visualize them 
-    - Give some insights in the conclusions 
+    - Story: Brings the conclusions together to build the perfect product  
 
 
 ## Conclusions
@@ -86,9 +76,14 @@ Note: For futher details, please refer to the related files
 
 
 2. **Analyse and vizualize the data in Tableau** 
-- Placeholder: 
-- There is a huge jump in average balance from Q1 to Q2 for households with size 8.
-- The jump is caused by the fact that only one out of 18.000 customers has a household size of 8 and this particular person has an unusually high balance.
+- The perfect must-have product for this e-commerce shop would unites all of the following demands:
+- Category: Body 
+- Scope: Hands 
+- Type: bath additional or bodylotion
+- Price: 70-80 € 
+- Size: 75-100 ml/g 
+- Attributes: Smoothing, gloss-imparting, moisturizing, nourishing and free from paraben, paraffin, lactose, micro-plastic, gluten 
+- On the base of this knowledge I would recommend a bath oil that unites all of these demands 
 
 ## Libaries 
 - helper_classification 
@@ -101,4 +96,3 @@ Note: For futher details, please refer to the related files
 - imblearn
 - sklearn
 - warnings
-
