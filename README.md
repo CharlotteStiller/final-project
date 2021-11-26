@@ -1,4 +1,4 @@
-# final-bootcamp
+# using e-commerce ratings for product development
 
 The objective of this project is to build a model that is able to predict the rating of products in e-commerce and to find out what its need to put together the ideal product for a e-commerce shop. 
 
