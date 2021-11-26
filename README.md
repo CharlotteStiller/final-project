@@ -42,15 +42,15 @@ For the project I scraped details from 50.000 products with the following column
 
 
 1. **Scraping the data with Beautiful Soup**
-    - Files: Scraping_data.ipynb / helper_scraping.py
-    - Scrape 15 diffrent attributes that could give us insights
+    - Files: scraping.ipynb / helper_scraping.py
+    - Scraped 15 different attributes from 50.000 products that could give insights about products and their rating 
 
 1. **Cleaning the dataset**
-    - Files: Cleaning_data_first_insights.ipynb / helper: cleaning.py
-    - Scrape 15 diffrent attributes that could give us insights
+    - Files: cleaning_data_first_insights.ipynb / helper: helper_cleaning_first_insights.py
+    - Cleaned and selected relevant data. Encoded the columns characteristics, effect, product_award.
   
 2.  **Logistic regression / Classification in Python** 
-    - Files: Solutions_Python - Classification.ipynb / helper.py
+    - Files: EDA_model.ipynb / helper_EDA_model.py
     - EDA
     - Data processing, feature engineering
     - Model evaluation
@@ -58,9 +58,9 @@ For the project I scraped details from 50.000 products with the following column
 
   
 3. **Visualize the data and storytelling in Tableau** 
-    - Files: Conclusions.ipynb / Conclusions.twb 
-    - Extract attributes of the rated products and visualize them 
-    - Story: Brings the conclusions together to build the perfect product  
+    - Files: rating_attributes.twb 
+    - Extracted attributes of the rated products and visualize them 
+    - Tableau Story: Brings the conclusions together to build the perfect product  
 
 
 ## Conclusions
@@ -69,9 +69,8 @@ Note: For futher details, please refer to the related files
 
 1.  **Logistic regression / Classification in Python** 
 - Placeholder: 
-- Logistic Regression with changed class weights fits best for this dataset. Highest Yes recall: 0.69.  
+- Logistic Regression with changed class weights fits best for this dataset. Highest recall for rating 1 and rating 2. Accuracy score 0.77.  
 - Next step to evaluate this model: Cut the variables which do not improve the prediction and improve the weight/balance
-- For the next marketing study I would recommend to change the questions which have no relationship to the target variable (Like shown in point 5.2.), target people who live in a household of the size 3 or 4, and to build bins (For example house hold size 5-9) 
 
 
 2. **Analyse and vizualize the data in Tableau** 
@@ -85,13 +84,12 @@ Note: For futher details, please refer to the related files
 - On the base of this knowledge I would recommend a bath oil that unites all of these demands 
 
 ## Libaries 
-- helper_classification 
+- BeautifulSoup
 - IPython
-- pandas as pd
+- pandas
 - scipy
-- seaborn as sns
+- seaborn
 - matplotlib
-- numpy as np
+- numpy
 - imblearn
 - sklearn
-- warnings
