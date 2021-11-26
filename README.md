@@ -2,7 +2,7 @@
 
 The objective of this project is to build a model that is able to predict the rating of products in e-commerce and to find out what its need to put together the ideal product for a e-commerce shop. 
 
-In ordert to do this, I used web scraping and made use of Python and Tableau.
+In order to do this, I used web scraping and made use of Python and Tableau.
 
 ![alt text](https://img.freepik.com/vecteurs-libre/gens-tiennent-etoiles-illustration-concept-illustration-concept-client-commentaires-illustration-style-cartoon-plat_313437-1.jpg?size=626&ext=jpg)
 
