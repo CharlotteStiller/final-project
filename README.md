@@ -8,12 +8,11 @@ In ordert to do this, I used web scraping and made use of Python and Tableau.
 
 ## About the project
 
-I worked with a dataset that I've got from scraping the web of one of the leading beauty e-commerce company in europe. 
+I worked with a dataset that I got from scraping the website of one of the leading beauty e-commerce companies in Europe. 
 
-We want to understand the demographics and other characteristics of beauty products that are well rated by the customers. The products have ratings from 1-5 stars. 1 for the most unpopular and 5 for the most popular product. 
+I wanted to understand which attributes of beauty products drive customer ratings. Products are rated on a scale from 1 to 5 stars.
 
-The goal of the classification project is to train a model to predict if a product get rated with 5 stars or less and to analyse the characteristics of the products. The analysis is the base to create the next product for the e-commerce shop that is most popular and has the biggest potential. 
-
+The goal of the classification project is to train a model to predict the rating of a product based on its attributes. The analysis is the base to identify gaps in the product range and therefore opportunities to create the next best-selling product for an e-commerce shop.
 
 ## Dataset 
 For the project I scraped details from 50.000 products with the following columns:  
@@ -60,7 +59,7 @@ For the project I scraped details from 50.000 products with the following column
   
 3. **Visualize the data and storytelling in Tableau** 
     - Files: Conclusions.ipynb / Conclusions.twb 
-    - Extract demographics and other characteristics of the rated products and visualize them 
+    - Extract attributes of the rated products and visualize them 
     - Story: Brings the conclusions together to build the perfect product  
 
 
