@@ -68,7 +68,6 @@ Note: For futher details, please refer to the related files
 
 
 1.  **Logistic regression / Classification in Python** 
-- Placeholder: 
 - Logistic Regression with changed class weights fits best for this dataset. Highest recall for rating 1 and rating 2. Accuracy score 0.77.  
 - Next step to evaluate this model: Cut the variables which do not improve the prediction and improve the weight/balance
 
